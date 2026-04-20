@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- Google Fonts and Icons -->
+        <css src="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" src_type="url"/>
+        <css src="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" src_type="url"/>
+
+        <!-- External Libraries -->
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries" src_type="url"></script>
+        </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Shatchi\Catalogue3\Block\Index" name="shatchi_catalogue3_main" template="Shatchi_Catalogue3::catalogue.phtml" />
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="shatchi" translate="label" sortOrder="100">
+            <label>Shatchi</label>
+        </tab>
+        <section id="shatchi_catalogue3" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Shatchi Settings</label>
+            <tab>shatchi</tab>
+            <resource>Shatchi_Catalogue3::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Configuration</label>
+
+                <field id="catalogue_title" translate="label comment" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Catalogue Title</label>
+                    <comment>The title text shown at the top of the catalogue (e.g., 'Shatchi').</comment>
+                </field>
+
+                <field id="meta_title" translate="label comment" type="text" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Page Meta Title</label>
+                    <comment>The browser tab title (e.g., 'Shatchi | Premium Seasonal Catalog 3').</comment>
+                </field>
+
+
+
+                <field id="enable_share" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Share Catalogue</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Show or hide the Share Catalogue button.</comment>
+                </field>
+
+                <field id="enable_goto" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Go To Pages</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Show or hide the Go To pages functionality.</comment>
+                </field>
+
+                <field id="enable_grid" translate="label comment" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Grid View</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Show or hide the Grid View feature.</comment>
+                </field>
+
+            </group>
+        </section>
+    </system>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <shatchi_catalogue3>
+            <general>
+                <catalogue_title>Shatchi</catalogue_title>
+                <meta_title>Shatchi | Premium Seasonal Catalog 3</meta_title>
+                <enable_share>1</enable_share>
+                <enable_goto>1</enable_goto>
+                <enable_grid>1</enable_grid>
+            </general>
+        </shatchi_catalogue3>
+    </default>
+</config>
